@@ -1,0 +1,13 @@
+*.pyc
+*.so
+*.zip
+*.pdf
+/r2r_src/.idea
+/img_features
+/snap
+/data
+/tasks
+/output
+/.vscode
+/build
+*/__pycache__
