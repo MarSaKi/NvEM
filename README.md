@@ -1,29 +1,12 @@
 # Code and Data for ACM MM2021 Paper "Neighbor-view Enhanced Model for Vision and Language Navigation" 
 
-## Environment Installation
-Download Room-to-Room navigation data:
-```
-bash ./tasks/R2R/data/download.sh
-```
+### Data Preparation
 
-Download image features for environments:
-```
-mkdir img_features
-wget https://www.dropbox.com/s/o57kxh2mn5rkx4o/ResNet-152-imagenet.zip -P img_features/
-cd img_features
-unzip ResNet-152-imagenet.zip
-```
+Please follow the instructions below to prepare the data in directories:
 
-Python requirements: Need python3.6 (python 3.5 should be OK since I removed the allennlp dependencies)
-```
-pip install -r python_requirements.txt
-```
-
-Install Matterport3D simulators:
-```
-git submodule update --init --recursive 
-sudo apt-get install libjsoncpp-dev libepoxy-dev libglm-dev libosmesa6 libosmesa6-dev libglew-dev
-mkdir build && cd build
-cmake -DEGL_RENDERING=ON ..
-make -j8
-```
+- `data`
+    - Download the [R2R data [5.8MB]](https://github.com/peteanderson80/Matterport3DSimulator/tree/master/tasks/R2R/data).
+    - Download the vocabulary and the [augmented data from EnvDrop [79.5MB]](https://github.com/airsplay/R2R-EnvDrop/tree/master/tasks/R2R/data).
+- `img_features`
+    - Download the [Scene features [4.2GB]](https://www.dropbox.com/s/85tpa6tc3enl5ud/ResNet-152-places365.zip?dl=1) (ResNet-152-Places365).
+    - Download the pre-processed [Object features and vocabulary [1.3GB]](https://zenodo.org/record/4310441/files/objects.zip?download=1) ([Caffe Faster-RCNN](https://github.com/peteanderson80/bottom-up-attention)).
