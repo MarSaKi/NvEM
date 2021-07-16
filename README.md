@@ -87,7 +87,7 @@ The trained Navigator will be saved under `snap/`.
 
 You also need to train a [Speaker](https://github.com/airsplay/R2R-EnvDrop) for augmented training:
 ```bash
-bash run/speak.bash 0
+bash run/speaker.bash 0
 ```
 The trained Speaker will be saved under `snap/`.
 
