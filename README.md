@@ -71,7 +71,6 @@ Here is the full log:
 Loaded the listener model at iter 119600 from snap/NvEM_bt/state_dict/best_val_unseen
 Env name: val_seen, nav_error: 3.4389, oracle_error: 2.1848, steps: 5.5749, lengths: 11.2468, success_rate: 0.6866, oracle_rate: 0.7640, spl: 0.6456
 Env name: val_unseen, nav_error: 4.2603, oracle_error: 2.8130, steps: 6.3585, lengths: 12.4147, success_rate: 0.6011, oracle_rate: 0.6790, spl: 0.5497
-
 ```
 
 ### Training
