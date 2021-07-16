@@ -1,7 +1,7 @@
 name=default
 flag="--attn soft --train validlistener
       --featdropout 0.3
-      --load /root/andong/EnvDrop/snap/spa4_obj8_bt/state_dict/best_val_unseen
+      --load snap/NvEM_bt/state_dict/best_val_unseen
       --visual_feat --angle_feat
       --features places365
       --glove_dim 300 --top_N_obj 8 --submit

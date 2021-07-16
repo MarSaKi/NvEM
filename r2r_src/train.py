@@ -269,7 +269,7 @@ def train_val():
 
     val_env_names = ['train', 'val_seen', 'val_unseen']
     if args.submit:
-        val_env_names = ['val_seen','val_unseen','test']
+        val_env_names = ['val_seen','val_unseen']
     else:
         pass
 
