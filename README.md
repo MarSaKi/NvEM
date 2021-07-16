@@ -19,7 +19,7 @@ feature of the corresponding single view where the candidate lies
 in. However, an instruction may mention landmarks out of the
 single view as references, which might lead to failures of textual-visual matching of existing methods. In this work, we propose a
 multi-module Neighbor-View Enhanced Model (NvEM) to adaptively
-incorporate visual contexts from neighbor views for better textualvisual matching.
+incorporate visual contexts from neighbor views for better textual-visual matching.
 
 ## Prerequisites
 
