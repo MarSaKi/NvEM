@@ -1,7 +1,7 @@
 # NvEM
 
 Code of the paper:
-**Neighbor-view Enhanced Model for Vision and Language Navigation (ACM MM2021)**<br>
+**Neighbor-view Enhanced Model for Vision and Language Navigation (ACM MM2021 **oral**)**<br>
 [Dong An](https://marsaki.github.io/), [Yuankai Qi](https://sites.google.com/site/yuankiqi/home), [Yan Huang](https://scholar.google.com/citations?user=6nUJrQ0AAAAJ&hl=zh-CN), [Qi Wu](http://www.qi-wu.me/), [Liang Wang](https://scholar.google.com/citations?user=8kzzUboAAAAJ&hl=zh-CN), [Tieniu Tan](https://scholar.google.com/citations?hl=zh-CN&user=W-FGd_UAAAAJ)<br>
 
 [[Paper](http://arxiv.org/abs/2107.07201)] [[GitHub](https://github.com/MarSaKi/NvEM)]
