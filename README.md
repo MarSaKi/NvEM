@@ -101,12 +101,30 @@ bash run/follower_bt.bash 0
 ## Citation
 If you use or discuss our Neighbor-view Enhanced Model, please cite our paper:
 ```
-@misc{an2021neighborview,
-      title={Neighbor-view Enhanced Model for Vision and Language Navigation}, 
-      author={Dong An and Yuankai Qi and Yan Huang and Qi Wu and Liang Wang and Tieniu Tan},
-      year={2021},
-      eprint={2107.07201},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{DBLP:conf/mm/AnQHWWT21,
+  author    = {Dong An and
+               Yuankai Qi and
+               Yan Huang and
+               Qi Wu and
+               Liang Wang and
+               Tieniu Tan},
+  editor    = {Heng Tao Shen and
+               Yueting Zhuang and
+               John R. Smith and
+               Yang Yang and
+               Pablo Cesar and
+               Florian Metze and
+               Balakrishnan Prabhakaran},
+  title     = {Neighbor-view Enhanced Model for Vision and Language Navigation},
+  booktitle = {{MM} '21: {ACM} Multimedia Conference, Virtual Event, China, October
+               20 - 24, 2021},
+  pages     = {5101--5109},
+  publisher = {{ACM}},
+  year      = {2021},
+  url       = {https://doi.org/10.1145/3474085.3475282},
+  doi       = {10.1145/3474085.3475282},
+  timestamp = {Tue, 05 Apr 2022 10:58:46 +0200},
+  biburl    = {https://dblp.org/rec/conf/mm/AnQHWWT21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
